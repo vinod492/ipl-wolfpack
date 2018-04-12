@@ -1,0 +1,86 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>IPL</title>
+    <meta name="description" content="fantasy points">
+    <meta name="author" content="vino">
+
+    <link rel="stylesheet" href="css/impl.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+    <script src="node_modules/d3/build/d3.min.js"></script>
+    <script src="node_modules/chart.js/dist/Chart.min.js"></script>
+    <script src="js/app.js"></script>
+    
+</head>
+
+<body ng-app="myApp" ng-controller="myController">
+    <header>
+        <div id='logo'>
+        <img src="ipl.png" alt="ipl" align="middle" height="80" width="302">
+        <!-- <h1>IPL</h1> -->
+    </div>   
+    </header>
+<p>hello</p>
+    <div>
+        <button id="showrank" ng-click="showRankings()">Show Rankings</button>
+ </div>
+        
+    <div>
+        <button id="hiderank" ng-click="hideRankings()">Hide Rankings</button>
+    </div>
+    <div ng-show=showrank>
+            <ol id='list'>
+                <li ng-repeat="score in teamScores | orderBy:'-total'">{{score.name}}&nbsp;&nbsp;&nbsp;<span>{{score.total}}</span></li>
+
+            </ol>
+   </div>
+   
+
+    <div class="container">
+        <table id="players" ng-repeat="participant in allParticipants">
+            <caption>
+                <h2>{{participant.name}}</h2>
+
+            </caption>
+
+            <thead>
+                <tr>
+                    <th>Player</th>
+                    <th>team </th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody class="container">
+                <tr ng-repeat="player in participant.players">
+                    <td>
+                        {{player.name}}
+                    </td>
+
+                    <td>
+                        {{player.team}}
+                    </td>
+
+                    <td>
+                        {{player.totalpoints}}
+                    </td>
+
+                </tr>
+                <tr class="totalScore">
+
+                    <td>Total Score:</td>
+                    <td></td>
+                    <td id="points">{{totalScore(participant)}}</td>
+
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<!--<canvas id="myChart" width="400" height="400"></canvas>-->
+<!-- <script src="js/chart.js"></script> -->
+</body>
+
+</html>

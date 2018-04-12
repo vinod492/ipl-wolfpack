@@ -1,0 +1,23 @@
+{
+  "name": "ct-wolfpack",
+  "version": "1.0.0",
+  "description": "A project displaying total points of teams for champions trophy 2017.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinod492/ct-wolfpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinod492/ct-wolfpack/issues"
+  },
+  "homepage": "https://github.com/vinod492/ct-wolfpack#readme",
+  "dependencies": {
+    "chart.js": "^2.6.0"
+  }
+}
