@@ -13,37 +13,37 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Dhoni",
                     team:"CSK",
                     value:'35m',
-                    totalpoints: 55
+                    totalpoints: 235
                 },
                 player2: {
                     name: "Butler",
                     team:"RR",
                     value:'30m',
-                    totalpoints: 3
+                    totalpoints: 130
                 },
                 player3: {
                     name: "Pollard",
                     team:"MI",
                     value:'13m',
-                    totalpoints: 0
+                    totalpoints: 59
                 },
                 player4: {
                     name: "M Pandey",
                     team:"SRH",
                     value:'5m',
-                    totalpoints: 15
+                    totalpoints: 57
                 },
                 player5: {
                     name: "KL Rahul",
                     team:"KXIP",
                     value:'5m',
-                    totalpoints: 155
+                    totalpoints: 313
                 },
                 player6: {
                     name: "Rana",
                     team:"KKR",
                     value:'10m',
-                    totalpoints: 125
+                    totalpoints: 149
                 },
                 player7: {
                     name: "Manoj Tiwary",
@@ -55,25 +55,25 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Roy",
                     team:"DD",
                     value:'15m',
-                    totalpoints: 0
+                    totalpoints: 227
                 },
                 player9: {
                     name: "Mustafizur",
                     team:"MI",
                     value:'10m',
-                    totalpoints: 34
+                    totalpoints: 206
                 },
                 player10: {
                     name: "Rashid khan",
                     team:"SRH",
                     value:'10m',
-                    totalpoints: 82
+                    totalpoints: 210
                 },
                 player11: {
                     name: "Chahal",
                      team:"RCB",
                     value:'17m',
-                    totalpoints: 4
+                    totalpoints: 118
                 },
                 player12: {
                     name: "Negi",
@@ -85,19 +85,19 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Ben Cutting",
                    team:"MI",
                     value:'5m',
-                    totalpoints: 0
+                    totalpoints: 10
                 },
                 player14: {
                     name: "Shami",
                     team:"DD",
                     value:'2m',
-                    totalpoints: 15
+                    totalpoints: 91
                 },
                 player15: {
                     name: "Sarfaraz Khan",
                    team:"RCB",
                     value:'12m',
-                    totalpoints: 2
+                    totalpoints: 21
                 },
                 player16: {
                     name: "Naman Ojha",
@@ -122,31 +122,31 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Stokes",
                     team:"RR",
                     value:'14m',
-                    totalpoints: 3
+                    totalpoints: 120
                 },
                 player2: {
                     name: "Kishan",
                     team:"MI",
                     value:'32m',
-                    totalpoints: 72
+                    totalpoints: 182
                 },
                 player3: {
                     name: "Evin Lewis",
                     team:"MI",
                     value:'33m',
-                    totalpoints: 3
+                    totalpoints: 141
                 },
                 player4: {
                     name: "Mayank",
                     team:"KXIP",
                     value:'5m',
-                    totalpoints: 16
+                    totalpoints: 94
                 },
                 player5: {
                     name: "Unadkat",
                      team:"RR",
                     value:'20m',
-                    totalpoints: 27
+                    totalpoints: 70
                 },
                 player6: {
                     name: "Rabada",
@@ -158,13 +158,13 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "K Gowtham",
                     team:"RR",
                     value:'7m',
-                    totalpoints: -4
+                    totalpoints: 58
                 },
                 player8: {
                     name: "S Thakur",
                      team:"CSK",
                     value:'5m',
-                    totalpoints: 35
+                    totalpoints: 78
                 },
                 player9: {
                     name: "Cummins",
@@ -176,25 +176,25 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Rayudu",
                     team:"CSK",
                     value:'5m',
-                    totalpoints: 113
+                    totalpoints: 188
                 },
                 player11: {
                     name: "M Zadran",
                    team:"KXIP",
                     value:'20m',
-                    totalpoints: 0
+                    totalpoints: 161
                 },
                 player12: {
                     name: "Vijay Shankar",
                     team:"DD",
                     value:'18m',
-                    totalpoints: 23
+                    totalpoints: 41
                 },
                 player13: {
                     name: "Shakib",
                    team:"SRH",
                     value:'10m',
-                    totalpoints: 85
+                    totalpoints: 299
                 },
                 player14: {
                     name: "Mohammed Siraj",
@@ -212,7 +212,7 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Brendon McCullum",
                     team:"RCB",
                     value:'13m',
-                    totalpoints: 84
+                    totalpoints: 88
                 },
                 player17: {
                     name: "Pradeep Sangwan",
@@ -229,55 +229,55 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Kohli",
                     team:"RCB",
                     value:'21m',
-                    totalpoints: 37
+                    totalpoints: 202
                 },
                 player2: {
                     name: "Rahane",
                     team:"RR",
                     value:'36m',
-                    totalpoints: 15
+                    totalpoints: 150
                 },
                 player3: {
                     name: "Darcy Short",
                     team:"RR",
                     value:'16m',
-                    totalpoints: 30
+                    totalpoints: 86
                 },
                 player4: {
                     name: "Christopher Gayle",
                     team:"KXIP",
                     value:'15m',
-                    totalpoints: 0
+                    totalpoints: 153
                 },
                 player5: {
                     name: "Marcus Stoinis",
                     team:"KXIP",
                     value:'9m',
-                    totalpoints: 40
+                    totalpoints: 55
                 },
                 player6: {
                     name: "Kane Williamson",
                      team:"SRH",
                     value:'19m',
-                    totalpoints: 72
+                    totalpoints: 188
                 },
                 player7: {
                     name: "Pant",
                     team:"DD",
                     value:'6m',
-                    totalpoints: 54
+                    totalpoints: 182
                 },
                 player8: {
                     name: "Bhuvaneshwar Kumar",
                     team:"SRH",
                     value:'5m',
-                    totalpoints: 47
+                    totalpoints: 17
                 },
                 player9: {
                     name: "Billy Stanlake",
                     team:"SRH",
                     value:'19m',
-                    totalpoints: 46
+                    totalpoints: 232
                 },
                 player10: {
                     name: "Basil Thampi",
@@ -295,13 +295,13 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Dhawal Kulkarni",
                     team:"RR",
                     value:'6m',
-                    totalpoints: 29
+                    totalpoints: 48
                 },
                 player13: {
                     name: "Harbhajan Singh",
                     team:"CSK",
                     value:'4m',
-                    totalpoints: 82
+                    totalpoints: 105
                 },
                 player14: {
                     name: "Navdeep Saini",
@@ -342,19 +342,19 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Gautam Gambhir",
                     team:"DD",
                     value:'8m',
-                    totalpoints: 90
+                    totalpoints: 111
                 },
                 player3: {
                     name: "Colin Munro",
                     team:"DD",
                     value:'21m',
-                    totalpoints: 2
+                    totalpoints: 0
                 },
                 player4: {
                     name: "Dinesh Karthik",
                     team:"KKR",
                     value:'10m',
-                    totalpoints: 101
+                    totalpoints: 151
                 },
                 player5: {
                     name: "David Miller",
@@ -366,13 +366,13 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Wriddhiman Saha",
                     team:"SRH",
                     value:'12m',
-                    totalpoints: 31
+                    totalpoints: 126
                 },
                 player7: {
                     name: "Krunal Pandya",
                     team:"MI",
                     value:'12m',
-                    totalpoints: 84
+                    totalpoints: 213
                 },
                 player8: {
                     name: "Kamlesh Nagarkoti",
@@ -384,13 +384,13 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "M.S. Washington Sundar",
                     team:"RCB",
                     value:'6m',
-                    totalpoints: 12
+                    totalpoints: 196
                 },
                 player10: {
                     name: "Ravichandran Ashwin",
                     team:"KXIP",
                     value:'16m',
-                    totalpoints: 55
+                    totalpoints: 256
                 },
                 player11: {
                     name: "Shubman Gill",
@@ -402,19 +402,19 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Shreyas Gopal",
                     team:"RR",
                     value:'3m',
-                    totalpoints: 47
+                    totalpoints: 141
                 },
                 player13: {
                     name: "Sam Billings",
                     team:"CSK",
                     value:'21m',
-                    totalpoints: 146
+                    totalpoints: 157
                 },
                 player14: {
                     name: "Mitchell Johnson",
                     team:"KKR",
                     value:'7m',
-                    totalpoints: 59
+                    totalpoints: 88
                 },
                 player15: {
                     name: "Aditya Tare",
@@ -426,7 +426,7 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Daniel Christian",
                     team:"DD",
                     value:'7m',
-                    totalpoints: 53
+                    totalpoints: 100
                 },
                 player17: {
                     name: "Sandeep Lamichhane",
@@ -443,7 +443,7 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Murali Vijay",
                     team:"CSK",
                     value:'36m',
-                    totalpoints: 0
+                    totalpoints: 16
                 },
                 player2: {
                     name: "Parthiv Patel",
@@ -455,19 +455,19 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Chris Lynn",
                     team:"KKR",
                     value:'5m',
-                    totalpoints: 40
+                    totalpoints: 118
                 },
                 player4: {
                     name: "Yuvraj Singh",
                     team:"KXIP",
                     value:'18m',
-                    totalpoints: 9
+                    totalpoints: 49
                 },
                 player5: {
                     name: "Karun Nair",
                     team:"KXIP",
                     value:'11m',
-                    totalpoints: 96
+                    totalpoints: 211
                 },
                 player6: {
                     name: "Hardik Pandya",
@@ -479,31 +479,31 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Axar Patel",
                     team: "KXIP",
                     value:'20m',
-                    totalpoints: 30
+                    totalpoints: 83
                 },
                 player8: {
                     name: "Mandeep Singh",
                     team:"RCB",
                     value:'1m',
-                    totalpoints: 69
+                    totalpoints: 182
                 },
                 player9: {
                     name: "Sunil Naraine",
                     team:"KKR",
                     value:'3m',
-                    totalpoints: 272
+                    totalpoints: 375
                 },
                 player10: {
                     name: "Jasprit Bumrah",
                     team:"MI",
                     value:'6m',
-                    totalpoints: 39
+                    totalpoints: 138
                 },
                 player11: {
                     name: "Ben Laughlin",
                     team:"RR",
                     value:'9m',
-                    totalpoints: 11
+                    totalpoints: 83
                 },
                 player12: {
                     name: "Dushmantha Chameera",
@@ -521,13 +521,13 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Mohit Sharma",
                     team:"KXIP",
                     value:'1m',
-                    totalpoints: 61
+                    totalpoints: 73
                 },
                 player15: {
                     name: "Umesh Yadav",
                     team:"RCB",
                     value:'1m',
-                    totalpoints: 76
+                    totalpoints: 212
                 },
                 player16: {
                     name: "Gurkeerat Singh Mann",
@@ -551,19 +551,19 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Quinton De Kock",
                     team:"RCB",
                     value:'16m',
-                    totalpoints: 15
+                    totalpoints: 172
                 },
                 player2: {
                     name: "Rohit Sharma",
                     team:"MI",
                     value:'20m',
-                    totalpoints: 25
+                    totalpoints: 83
                 },
                 player3: {
                     name: "Rahul Tripathi",
                     team:"RR",
                     value:'24m',
-                    totalpoints: 21
+                    totalpoints: 78
                 },
                 player4: {
                     name: "Kedar Jadhav",
@@ -575,25 +575,25 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Ravindra Jadeja",
                      team:"CSK",
                     value:'16m',
-                    totalpoints: 67
+                    totalpoints: 115
                 },
                 player6: {
                     name: "Shikhar Dhawan",
                     team:"SRH",
                     value:'7m',
-                    totalpoints: 172
+                    totalpoints: 275
                 },
                 player7: {
                     name: "Shreyas Iyer",
                     team:"DD",
                     value:'28m',
-                    totalpoints: 13
+                    totalpoints: 72
                 },
                 player8: {
                     name: "Imran Tahir",
                     team:"CSK",
                     value:'20m',
-                    totalpoints: 62
+                    totalpoints: 132
                 },
                 player9: {
                     name: "Ankit Sharma",
@@ -611,7 +611,7 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Deepak Hooda",
                     team:"SRH",
                     value:'1m',
-                    totalpoints: 5
+                    totalpoints: 73
                 },
                 player12: {
                     name: "Mohammad Nabi",
@@ -623,13 +623,13 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Trent Boult",
                      team:"DD",
                     value:'1m',
-                    totalpoints: 42
+                    totalpoints: 127
                 },
                 player14: {
                     name: "Shahbaz Nadeem",
                      team:"DD",
                     value:'1m',
-                    totalpoints: 0
+                    totalpoints: 58
                 },
                 player15: {
                     name: "Moeen Ali",
@@ -647,7 +647,7 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Kulwant Khejroliya",
                     team:"RCB",
                     value:'14m',
-                    totalpoints: 7
+                    totalpoints: 62
                 }
         }
     },
@@ -658,7 +658,7 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Dwayne Bravo",
                     team:"CSK",
                     value:'35m',
-                    totalpoints: 213
+                    totalpoints: 247
                 },
                 player2: {
                     name: "Shane Watson",
@@ -682,37 +682,37 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Sanju Samson",
                     team:"RR",
                     value:'10m',
-                    totalpoints: 66
+                    totalpoints: 380
                 },
                 player6: {
                     name: "Suryakumar Yadav",
                     team:"MI",
                     value:'14m',
-                    totalpoints: 80
+                    totalpoints: 212
                 },
                 player7: {
                     name: "Chris Woakes",
                      team:"RCB",
                     value:'25m',
-                    totalpoints: 96
+                    totalpoints: 187
                 },
                 player8: {
                     name: "Siddarth Kaul",
                      team:"SRH",
                     value:'5m',
-                    totalpoints: 99
+                    totalpoints: 197
                 },
                 player9: {
                     name: "Sandeep Sharma",
                     team:"SRH",
                     value:'15m',
-                    totalpoints: 0
+                    totalpoints: 78
                 },
                 player10: {
                     name: "Yusuf Pathan",
                     team:"SRH",
                     value:'2m',
-                    totalpoints: 25
+                    totalpoints: 92
                 },
                 player11: {
                     name: "Shreevats Goswami",
@@ -724,13 +724,13 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Andre Russel",
                      team:"KKR",
                     value:'13m',
-                    totalpoints: 258
+                    totalpoints: 275
                 },
                 player13: {
                     name: "Shivam Mavi",
                     team:"KKR",
                     value:'6m',
-                    totalpoints: 0
+                    totalpoints: 6
                 },
                 player14: {
                     name: "Apoorv Vijay Wankhade",
@@ -777,19 +777,19 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "AB de Villers",
                     team:"RCB",
                     value:'21m',
-                    totalpoints: 101
+                    totalpoints: 230
                 },
                 player4: {
                     name: "Robin Uthappa",
                     team:"KKR",
                     value:'14m',
-                    totalpoints: 86
+                    totalpoints: 84
                 },
                 player5: {
                     name: "Glenn Maxwell",
                     team:"DD",
                     value:'25m',
-                    totalpoints: 0
+                    totalpoints: 71
                 },
                 player6: {
                     name: "Manan Vohra",
@@ -801,13 +801,13 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Chris Morris",
                      team:"DD",
                     value:'3m',
-                    totalpoints: 78
+                    totalpoints: 117
                 },
                 player8: {
                     name: "Andrew Tye",
                     team:"KXIP",
                     value:'2m',
-                    totalpoints: 20
+                    totalpoints: 118
                 },
                 player9: {
                     name: "Karn Sharma",
@@ -819,19 +819,19 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Amit Mishra",
                     team:"DD",
                     value:'2m',
-                    totalpoints: -6
+                    totalpoints: 0
                 },
                 player11: {
                     name: "Kuldeep Singh Yadav",
                     team:"KKR",
                     value:'7m',
-                    totalpoints: 38
+                    totalpoints: 92
                 },
                 player12: {
                     name: "Piyush Chawla",
                     team:"KKR",
                     value:'13m',
-                    totalpoints: 57
+                    totalpoints: 119
                 },
                 player13: {
                     name: "Rahul Chahar",
@@ -843,7 +843,7 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Barinder Singh Sran",
                     team:"KXIP",
                     value:'10m',
-                    totalpoints: 0
+                    totalpoints: 34
                 },
                 player15: {
                     name: "Stuart Binny",
@@ -855,7 +855,7 @@ myApp.controller('myController', ['$scope', function ($scope) {
                     name: "Deepak Chahar",
                     team:"CSK",
                     value:'3m',
-                    totalpoints: 55
+                    totalpoints: 53
                 },
                 player17: {
                     name: "Tajinder Dhillon Singh",

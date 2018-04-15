@@ -33,7 +33,14 @@
     </div>
     <div ng-show=showrank>
             <ol id='list'>
-                <li ng-repeat="score in teamScores | orderBy:'-total'">{{score.name}}&nbsp;&nbsp;&nbsp;<span>{{score.total}}</span></li>
+                <li ng-repeat="score in teamScores | orderBy:'-total'">
+                    <table>
+                        <tr>
+                        <td>{{score.name}}</td>
+                        <td>{{score.total}}</td>
+                    </tr>
+                    </table>
+                </li>
 
             </ol>
    </div>

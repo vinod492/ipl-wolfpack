@@ -89,8 +89,11 @@ th:last-child {
 }
 
 td {
-  border-bottom: 1px solid grey;
-  
+    color:white;
+    border-bottom: 1px solid green;
+    border: 1px solid green;
+    padding: 3px;
+    text-align: left;
 }
 
 #logo{
