@@ -24,13 +24,13 @@
         </div>
     </header>
     <p>hello</p>
-    <div>
+    <span>
         <button id="showrank" ng-click="showRankings()">Show Rankings</button>
-    </div>
-
-    <div>
+    <span>
+    &nbsp;&nbsp;
+    <span>
         <button id="hiderank" ng-click="hideRankings()">Hide Rankings</button>
-    </div>
+    </span>
     <div ng-show=showrank>
         <ol id='list'>
             <li ng-repeat="score in teamScores | orderBy:'-total'">
