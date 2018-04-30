@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background: linear-gradient(orange, green);
     margin:0;
     
 }
@@ -8,25 +8,32 @@ body{
     margin:auto;
     margin:10px;
 }
-#rankings__container{
-    
-    width:30%;
-}
 
-
-#ranks{
+#rankings{
     font-family: sans-serif;
     font-size: 12px;
     width: 150px;
     margin:15px;
     text-align: left;
     display: inline-block;
-    color: orange;
+    color: black;
 }
 
+#rankings td{
+    color: yellowgreen;
+    background-color:grey;
+    border:none;
+    text-align: left;
+}
+
+#rankings th{
+    background-color: #326295;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
 
 #players{
-    
     font-family: sans-serif;
     font-size: 12px;
     width: 300px;
@@ -41,7 +48,7 @@ body{
 
 header {
    
-    background-color: dodgerblue;
+    background: linear-gradient(to right, blue,lightblue);
     position: relative;
     height:80px;
 }
@@ -60,10 +67,10 @@ header {
 }
 
 #players td, #players th{
-
     padding: 5px 2px;
     vertical-align: middle;
 }
+
 hr{
     width:112%;
     border-top: 2px solid #bb8c07;
@@ -99,6 +106,7 @@ td {
 #logo{
     display : flex;
     justify-content: center;
+    
 }
 
 .text-offset {
@@ -110,14 +118,9 @@ td {
     font-weight: bolder;
     color:cornflowerblue;
 }
+
 #points{
     text-align: left;
-}
-
-#list{
-color: orange;
-font-size: 14px;
-font-weight: bold;
 }
 
 #showrank, #hiderank{

@@ -23,7 +23,6 @@
             <!-- <h1>IPL</h1> -->
         </div>
     </header>
-    <p>hello</p>
     <span>
         <button id="showrank" ng-click="showRankings()">Show Rankings</button>
     <span>
@@ -32,17 +31,20 @@
         <button id="hiderank" ng-click="hideRankings()">Hide Rankings</button>
     </span>
     <div ng-show=showrank>
-        <ol id='list'>
-            <li ng-repeat="score in teamScores | orderBy:'-total'">
-                <table>
-                    <tr>
+            <table id="rankings">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Team</th>
+                            <th>Points</th>
+                        </tr>
+                        </thead>
+                    <tr ng-repeat="score in teamScores | orderBy:'-total'">
+                        <td>{{$index+1}}</td>
                         <td>{{score.name}}</td>
                         <td>{{score.total}}</td>
                     </tr>
                 </table>
-            </li>
-
-        </ol>
     </div>
 
 
