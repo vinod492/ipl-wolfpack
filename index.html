@@ -25,76 +25,94 @@
     </header>
     <span>
         <button id="showrank" ng-click="showRankings()">Show Rankings</button>
-    <span>
-    &nbsp;&nbsp;
-    <span>
-        <button id="hiderank" ng-click="hideRankings()">Hide Rankings</button>
-    </span>
-    <div ng-show=showrank>
-            <table id="rankings">
+        <span>
+            &nbsp;&nbsp;
+            <span>
+                <button id="hiderank" ng-click="hideRankings()">Hide Rankings</button>
+            </span>
+            <div ng-show=showrank>
+                <table id="rankings">
                     <thead>
                         <tr>
                             <th>Rank</th>
                             <th>Team</th>
                             <th>Points</th>
                         </tr>
-                        </thead>
+                    </thead>
                     <tr ng-repeat="score in teamScores | orderBy:'-total'">
                         <td>{{$index+1}}</td>
                         <td>{{score.name}}</td>
                         <td>{{score.total}}</td>
                     </tr>
                 </table>
-    </div>
+            </div>
+            <section>
+                <h1 style="text-align:start">Leader Board</h1>
+                    <div>
+                            <table id="rankings">
+                                <thead>
+                                    <tr>
+                                        <th>Player</th>
+                                        <th>Points</th>
+                                    </tr>
+                                </thead>
+                                <tr ng-repeat="player in topPlayers | orderBy:'-points' | limitTo: 10">
+                                    <td>{{player.name}}</td>
+                                    <td>{{player.points}}</td>
+                                </tr>
+                            </table>
+                        </div>
+
+            </section>
+            
+
+            <div class="container">
+                <table id="players" ng-repeat="participant in allParticipants">
+                    <caption>
+                        <h2>{{participant.name}}</h2>
+
+                    </caption>
+
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>Team </th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody class="container">
+                        <tr ng-repeat="player in participant.players | orderBy: '-totalpoints'">
+
+                            <td>
+                                {{$index+1}}
+                            </td>
+                            <td>
+                                {{player.name}}
+                            </td>
+
+                            <td>
+                                {{player.team}}
+                            </td>
+
+                            <td>
+                                {{player.totalpoints}}
+                            </td>
 
 
-    <div class="container">
-        <table id="players" ng-repeat="participant in allParticipants">
-            <caption>
-                <h2>{{participant.name}}</h2>
 
-            </caption>
-
-            <thead>
-                <tr>
-                    <th>Rank</th>
-                    <th>Player</th>
-                    <th>Team </th>
-                    <th>Points</th>
-                </tr>
-            </thead>
-            <tbody class="container">
-                <tr ng-repeat="player in participant.players | orderBy: '-totalpoints'">
-                
-                        <td>
-                            {{$index+1}}
-                        </td>
-                        <td>
-                            {{player.name}}
-                        </td>
-
-                        <td>
-                            {{player.team}}
-                        </td>
-
-                        <td>
-                            {{player.totalpoints}}
-                        </td>
-
-
-
-                </tr>
-                <tr class="totalScore">
-                    <td> </td>
-                    <td>Top 14:</td>
-                    <td></td>
-                    <td id="points">{{totalScore(participant)}}</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <!--<canvas id="myChart" width="400" height="400"></canvas>-->
-    <!-- <script src="js/chart.js"></script> -->
+                        </tr>
+                        <tr class="totalScore">
+                            <td> </td>
+                            <td>Top 14:</td>
+                            <td></td>
+                            <td id="points">{{totalScore(participant)}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--<canvas id="myChart" width="400" height="400"></canvas>-->
+            <!-- <script src="js/chart.js"></script> -->
 </body>
 
 </html>
