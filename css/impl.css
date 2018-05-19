@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(orange, green);
+    background: linear-gradient(blue, green);
     margin:0;
     
 }
@@ -48,7 +48,7 @@ body{
 
 header {
    
-    background: linear-gradient(to right, blue,lightblue);
+    background: linear-gradient(to right, grey,lightblue);
     position: relative;
     height:80px;
 }
