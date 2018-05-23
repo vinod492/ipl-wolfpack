@@ -14,7 +14,7 @@
                         name: "Dhoni",
                         team: "CSK",
                         value: '$17',
-                        totalpoints: 926
+                        totalpoints: 1037
                     },
                     {
                         name: "Butler",
@@ -26,31 +26,31 @@
                         name: "Pollard",
                         team: "MI",
                         value: '$16',
-                        totalpoints: 238
+                        totalpoints: 255
                     },
                     {
                         name: "M Pandey",
                         team: "SRH",
                         value: '$26',
-                        totalpoints: 467
+                        totalpoints: 534
                     },
                      {
                         name: "KL Rahul",
                         team: "KXIP",
                         value: '$23',
-                        totalpoints: 1388
+                        totalpoints: 1402
                     },
                     {
                         name: "Rana",
                         team: "KKR",
                         value: '$18',
-                        totalpoints: 636
+                        totalpoints: 669
                     },
                     {
                         name: "Manoj Tiwary",
                         team: "KXIP",
                         value: '$3',
-                        totalpoints: 47
+                        totalpoints: 105
                     },
                     {
                         name: "Roy",
@@ -62,13 +62,13 @@
                         name: "Mustafizur",
                         team: "MI",
                         value: '$5',
-                        totalpoints: 284
+                        totalpoints: 297
                     },
                     {
                         name: "Rashid khan",
                         team: "SRH",
                         value: '$27',
-                        totalpoints: 935
+                        totalpoints: 1062
                     },
                    {
                         name: "Chahal",
@@ -86,7 +86,7 @@
                         name: "Ben Cutting",
                         team: "MI",
                         value: '$1',
-                        totalpoints: 238
+                        totalpoints: 310
                     },
                     {
                         name: "Shami",
@@ -110,7 +110,7 @@
                         name: "Prithvi Shaw",
                         team: "DD",
                         value: '$4',
-                        totalpoints: 424
+                        totalpoints: 472
                     }
 
                 ]
@@ -131,13 +131,13 @@
                         name: "Kishan",
                         team: "MI",
                         value: '$15',
-                        totalpoints: 640
+                        totalpoints: 637
                     },
                    {
                         name: "Evin Lewis",
                         team: "MI",
                         value: '$22',
-                        totalpoints: 602
+                        totalpoints: 683
                     },
                     
                      {
@@ -150,7 +150,7 @@
                         name: "Unadkat",
                         team: "RR",
                         value: '$23',
-                        totalpoints: 441
+                        totalpoints: 501
                     },
                     
                      {
@@ -164,13 +164,13 @@
                         name: "K Gowtham",
                         team: "RR",
                         value: '$10',
-                        totalpoints: 621
+                        totalpoints: 824
                     },
                      {
                         name: "S Thakur",
                         team: "CSK",
                         value: '$14',
-                        totalpoints: 431
+                        totalpoints: 596
                     },
                      {
                         name: "Cummins",
@@ -182,7 +182,7 @@
                         name: "Rayudu",
                         team: "CSK",
                         value: '$1',
-                        totalpoints: 1071
+                        totalpoints: 1172
                     },
                      {
                         name: "M Zadran",
@@ -194,19 +194,19 @@
                         name: "Vijay Shankar",
                         team: "DD",
                         value: '$2',
-                        totalpoints: 281
+                        totalpoints: 454
                     },
                      {
                         name: "Shakib",
                         team: "SRH",
                         value: '$10',
-                        totalpoints: 785
+                        totalpoints: 836
                     },
                      {
                         name: "Mohammed Siraj",
                         team: "RCB",
                         value: '$5',
-                        totalpoints: 401
+                        totalpoints: 479
                     },
                      {
                         name: "Vinay Kumar",
@@ -238,13 +238,13 @@
                         name: "Kohli",
                         team: "RCB",
                         value: '$40',
-                        totalpoints: 998
+                        totalpoints: 997
                     },
                      {
                         name: "Rahane",
                         team: "RR",
                         value: '$25',
-                        totalpoints: 476
+                        totalpoints: 606
                     },
                      {
                         name: "Darcy Short",
@@ -256,7 +256,7 @@
                         name: "Christopher Gayle",
                         team: "KXIP",
                         value: '$7',
-                        totalpoints: 745
+                        totalpoints: 748
                     },
                      {
                         name: "Marcus Stoinis",
@@ -268,19 +268,19 @@
                         name: "Kane Williamson",
                         team: "SRH",
                         value: '$27',
-                        totalpoints: 1264
+                        totalpoints: 1368
                     },
                      {
                         name: "Pant",
                         team: "DD",
                         value: '$16',
-                        totalpoints: 1243
+                        totalpoints: 1476
                     },
                      {
                         name: "Bhuvaneshwar Kumar",
                         team: "SRH",
                         value: '$34',
-                        totalpoints: 359
+                        totalpoints: 442
                     },
                      {
                         name: "Billy Stanlake",
@@ -310,7 +310,7 @@
                         name: "Harbhajan Singh",
                         team: "CSK",
                         value: '$4',
-                        totalpoints: 363
+                        totalpoints: 393
                     },
                      {
                         name: "Navdeep Saini",
@@ -328,7 +328,7 @@
                         name: "Carlos Brathwaite",
                         team: "SRH",
                         value: '$1',
-                        totalpoints: 0
+                        totalpoints: 154
                     },
                      {
                         name: "Ishank Jaggi",
@@ -347,7 +347,7 @@
                         name: "Suresh Raina",
                         team: "CSK",
                         value: '$27',
-                        totalpoints: 644
+                        totalpoints: 819
                     },
                      {
                         name: "Gautam Gambhir",
@@ -365,13 +365,13 @@
                         name: "Dinesh Karthik",
                         team: "KKR",
                         value: '$27',
-                        totalpoints: 862
+                        totalpoints: 1029
                     },
                      {
                         name: "David Miller",
                         team: "KXIP",
                         value: '$5',
-                        totalpoints: 77
+                        totalpoints: 106
                     },
                      {
                         name: "Wriddhiman Saha",
@@ -402,25 +402,25 @@
                         name: "Ravichandran Ashwin",
                         team: "KXIP",
                         value: '$10',
-                        totalpoints: 614
+                        totalpoints: 658
                     },
                      {
                         name: "Shubman Gill",
                         team: "KKR",
                         value: '$3',
-                        totalpoints: 301
+                        totalpoints: 360
                     },
                      {
                         name: "Shreyas Gopal",
                         team: "RR",
                         value: '3m',
-                        totalpoints: 343
+                        totalpoints: 585
                     },
                      {
                         name: "Sam Billings",
                         team: "CSK",
                         value: '$1',
-                        totalpoints: 270
+                        totalpoints: 276
                     },
                      {
                         name: "Mitchell Johnson",
@@ -444,7 +444,7 @@
                         name: "Sandeep Lamichhane",
                         team: "DD",
                         value: '$1',
-                        totalpoints: 52
+                        totalpoints: 207
                     }
                 ]
                     
@@ -463,13 +463,13 @@
                         name: "Parthiv Patel",
                         team: "RCB",
                         value: '$8',
-                        totalpoints: 258
+                        totalpoints: 335
                     },
                      {
                         name: "Chris Lynn",
                         team: "KKR",
                         value: '$33',
-                        totalpoints: 654
+                        totalpoints: 807
                     },
                      {
                         name: "Yuvraj Singh",
@@ -481,42 +481,42 @@
                         name: "Karun Nair",
                         team: "KXIP",
                         value: '$8',
-                        totalpoints: 505
+                        totalpoints: 615
                     },
                      {
                         name: "Hardik Pandya",
                         team: "MI",
                         value: '$21',
-                        totalpoints: 1076
+                        totalpoints: 1140
                     },
                      {
                         name: "Axar Patel",
                         team: "KXIP",
                         value: '$20',
-                        totalpoints: 248
+                        totalpoints: 289
                     },
                      {
                         name: "Mandeep Singh",
                         team: "RCB",
                         value: '$3',
-                        totalpoints: 439
+                        totalpoints: 441
                     },
                      {
                         name: "Sunil Naraine",
                         team: "KKR",
                         value: '$28',
-                        totalpoints: 1270                    },
+                        totalpoints: 1420                    },
                      {
                         name: "Jasprit Bumrah",
                         team: "MI",
                         value: '$30',
-                        totalpoints: 803
+                        totalpoints: 839
                     },
                      {
                         name: "Ben Laughlin",
                         team: "RR",
                         value: '$1',
-                        totalpoints: 128
+                        totalpoints: 232
                     },
                      {
                         name: "Dushmantha Chameera",
@@ -534,13 +534,13 @@
                         name: "Mohit Sharma",
                         team: "KXIP",
                         value: '$2',
-                        totalpoints: 153
+                        totalpoints: 192
                     },
                      {
                         name: "Umesh Yadav",
                         team: "RCB",
                         value: '$12',
-                        totalpoints: 768                    },
+                        totalpoints: 896                    },
                      {
                         name: "Gurkeerat Singh Mann",
                         team: "DD",
@@ -571,13 +571,13 @@
                         name: "Rohit Sharma",
                         team: "MI",
                         value: '$30',
-                        totalpoints: 585
+                        totalpoints: 601
                     },
                      {
                         name: "Rahul Tripathi",
                         team: "RR",
                         value: '$12',
-                        totalpoints: 234
+                        totalpoints: 414
                     },
                      {
                         name: "Kedar Jadhav",
@@ -589,19 +589,19 @@
                         name: "Ravindra Jadeja",
                         team: "CSK",
                         value: '$17',
-                        totalpoints: 527
+                        totalpoints: 770
                     },
                      {
                         name: "Shikhar Dhawan",
                         team: "SRH",
                         value: '$33',
-                        totalpoints: 873
+                        totalpoints: 960
                     },
                      {
                         name: "Shreyas Iyer",
                         team: "DD",
                         value: '$12',
-                        totalpoints: 742
+                        totalpoints: 783
                     },
                      {
                         name: "Imran Tahir",
@@ -619,13 +619,13 @@
                         name: "Jofra Archer",
                         team: "RR",
                         value: '$19',
-                        totalpoints: 495
+                        totalpoints: 574
                     },
                      {
                         name: "Deepak Hooda",
                         team: "SRH",
                         value: '$8',
-                        totalpoints: 139
+                        totalpoints: 140
                     },
                      {
                         name: "Mohammad Nabi",
@@ -637,7 +637,7 @@
                         name: "Trent Boult",
                         team: "DD",
                         value: '$6',
-                        totalpoints: 545
+                        totalpoints: 719
                     },
                      {
                         name: "Shahbaz Nadeem",
@@ -649,13 +649,13 @@
                         name: "Moeen Ali",
                         team: "RCB",
                         value: '$1',
-                        totalpoints: 304
+                        totalpoints: 328
                     },
                      {
                         name: "Tim Southee",
                         team: "RCB",
                         value: '$5',
-                        totalpoints: 337
+                        totalpoints: 363
                     },
                      {
                         name: "Kulwant Khejroliya",
@@ -672,37 +672,37 @@
                         name: "Dwayne Bravo",
                         team: "CSK",
                         value: '$29',
-                        totalpoints: 642
+                        totalpoints: 788
                     },
                      {
                         name: "Shane Watson",
                         team: "CSK",
                         value: '$13',
-                        totalpoints: 1114
+                        totalpoints: 1116
                     },
                      {
                         name: "Aaron Finch",
                         team: "KXIP",
                         value: '$18',
-                        totalpoints: 252
+                        totalpoints: 255
                     },
                      {
                         name: "Lungisani Ngidi",
                         team: "CSK",
                         value: '$8',
-                        totalpoints: 137
+                        totalpoints: 528
                     },
                      {
                         name: "Sanju Samson",
                         team: "RR",
                         value: '$18',
-                        totalpoints: 761
+                        totalpoints: 845
                     },
                      {
                         name: "Suryakumar Yadav",
                         team: "MI",
                         value: '$3',
-                        totalpoints: 955
+                        totalpoints: 978
                     },
                      {
                         name: "Chris Woakes",
@@ -714,31 +714,31 @@
                         name: "Siddarth Kaul",
                         team: "SRH",
                         value: '$1',
-                        totalpoints: 621
+                        totalpoints: 762
                     },
                      {
                         name: "Sandeep Sharma",
                         team: "SRH",
                         value: '$10',
-                        totalpoints: 520
+                        totalpoints: 570
                     },
                      {
                         name: "Yusuf Pathan",
                         team: "SRH",
                         value: '$11',
-                        totalpoints: 400
+                        totalpoints: 422
                     },
                      {
                         name: "Shreevats Goswami",
                         team: "SRH",
                         value: '$3',
-                        totalpoints: 45
+                        totalpoints: 147
                     },
                      {
                         name: "Andre Russel",
                         team: "KKR",
                         value: '$39',
-                        totalpoints: 939
+                        totalpoints: 1131
                     },
                      {
                         name: "Shivam Mavi",
@@ -762,7 +762,7 @@
                         name: "Ankit Singh Rajpoot",
                         team: "KXIP",
                         value: '$5',
-                        totalpoints: 428                    },
+                        totalpoints: 550                    },
                      {
                         name: "Jayant Yadav",
                         team: "DD",
@@ -780,7 +780,7 @@
                         name: "Faf Du Plessis",
                         team: "CSK",
                         value: '$7',
-                        totalpoints: 113
+                        totalpoints: 294
                     },
                      {
                         name: "Alex Hales",
@@ -792,19 +792,19 @@
                         name: "AB de Villers",
                         team: "RCB",
                         value: '$38',
-                        totalpoints: 971
+                        totalpoints: 1064
                     },
                      {
                         name: "Robin Uthappa",
                         team: "KKR",
                         value: '$17',
-                        totalpoints: 566
+                        totalpoints: 653
                     },
                      {
                         name: "Glenn Maxwell",
                         team: "DD",
                         value: '$30',
-                        totalpoints: 423
+                        totalpoints: 503
                     },
                      {
                         name: "Manan Vohra",
@@ -822,7 +822,7 @@
                         name: "Andrew Tye",
                         team: "KXIP",
                         value: '$12',
-                        totalpoints: 974
+                        totalpoints: 962
                     },
                      {
                         name: "Karn Sharma",
@@ -834,19 +834,19 @@
                         name: "Amit Mishra",
                         team: "DD",
                         value: '$8',
-                        totalpoints: 318
+                        totalpoints: 564
                     },
                      {
                         name: "Kuldeep Singh Yadav",
                         team: "KKR",
                         value: '$16',
-                        totalpoints: 568
+                        totalpoints: 683
                     },
                      {
                         name: "Piyush Chawla",
                         team: "KKR",
                         value: '$7',
-                        totalpoints: 442
+                        totalpoints: 539
                     },
                      {
                         name: "Rahul Chahar",
@@ -864,13 +864,13 @@
                         name: "Stuart Binny",
                         team: "RR",
                         value: '$2',
-                        totalpoints: 80
+                        totalpoints: 77
                     },
                      {
                         name: "Deepak Chahar",
                         team: "CSK",
                         value: '$3',
-                        totalpoints: 381
+                        totalpoints: 612
                     },
                      {
                         name: "Tajinder Dhillon Singh",
