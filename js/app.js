@@ -38,7 +38,7 @@
                         name: "KL Rahul",
                         team: "KXIP",
                         value: '$23',
-                        totalpoints: 1402
+                        totalpoints: 1403
                     },
                     {
                         name: "Rana",
