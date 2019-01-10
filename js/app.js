@@ -50,7 +50,7 @@
                         name: "Manoj Tiwary",
                         team: "KXIP",
                         value: '$3',
-                        totalpoints: 105
+                        totalpoints: 108
                     },
                     {
                         name: "Roy",
