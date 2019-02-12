@@ -14,13 +14,13 @@
                         name: "Dhoni",
                         team: "CSK",
                         value: '$17',
-                        totalpoints: 1035
+                        totalpoints: 103
                     },
                     {
                         name: "Butler",
                         team: "RR",
                         value: '$11',
-                        totalpoints: 1215
+                        totalpoints: 121
                     },
                      {
                         name: "Pollard",
