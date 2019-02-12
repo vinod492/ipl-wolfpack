@@ -32,13 +32,13 @@
                         name: "M Pandey",
                         team: "SRH",
                         value: '$26',
-                        totalpoints: 534
+                        totalpoints: 53
                     },
                      {
                         name: "KL Rahul",
                         team: "KXIP",
                         value: '$23',
-                        totalpoints: 1403
+                        totalpoints: 140
                     },
                     {
                         name: "Rana",
@@ -50,13 +50,13 @@
                         name: "Manoj Tiwary",
                         team: "KXIP",
                         value: '$3',
-                        totalpoints: 108
+                        totalpoints: 10
                     },
                     {
                         name: "Roy",
                         team: "DD",
                         value: '$11',
-                        totalpoints: 269
+                        totalpoints: 26
                     },
                    {
                         name: "Mustafizur",
