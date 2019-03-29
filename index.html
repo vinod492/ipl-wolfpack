@@ -19,7 +19,8 @@
 <body ng-app="myApp" ng-controller="myController">
     <header>
         <div id='logo'>
-            <img src="ipl.png" alt="ipl" align="middle" height="80" width="302">
+                <img src="wolfpack.jpg" alt="ipl" style="float:left" height="100" width="190">
+            <img src="ipl_2019.jpg" alt="ipl" height="100" width="190">
             <!-- <h1>IPL</h1> -->
         </div>
     </header>
@@ -81,7 +82,6 @@
                             <th>Player</th>
                             <th>Team </th>
                             <th>Points</th>
-                            <th>Value</th>
                         </tr>
                     </thead>
                     <tbody class="container">
@@ -101,16 +101,11 @@
                             <td>
                                 {{player.totalpoints}}
                             </td>
-                            <td>
-                                {{player.value}}
-                            </td>
-
-
 
                         </tr>
                         <tr class="totalScore">
                             <td> </td>
-                            <td>Top 14:</td>
+                            <td>Top 16:</td>
                             <td></td>
                             <td id="points">{{totalScore(participant)}}</td>
                         </tr>
