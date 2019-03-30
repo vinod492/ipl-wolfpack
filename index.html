@@ -1,6 +1,8 @@
 <html lang="en">
 
 <head>
+    <!-- Add favicon http://iconhandbook.co.uk/reference/examples/favicons/ -->
+        <link rel="icon" type="image/x-icon" href="ipl.ico" />
     <meta charset="utf-8">
 
     <title>IPL</title>
@@ -13,7 +15,9 @@
     <script src="node_modules/d3/build/d3.min.js"></script>
     <script src="node_modules/chart.js/dist/Chart.min.js"></script>
     <script src="js/app.js"></script>
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.0.1/Chart.bundle.min.js"></script>
 </head>
 
 <body ng-app="myApp" ng-controller="myController">
@@ -24,6 +28,195 @@
             <!-- <h1>IPL</h1> -->
         </div>
     </header>
+   
+            <div>
+              
+                <canvas id="myChart" width="700" height="500" style="margin-top:30px;"></canvas>
+              
+            </div>
+          
+              <!-- <table class="table-bordered col-sm-4" style="margin-top:20px;" id="tl-1">
+              </table>
+              <table class="table-bordered col-sm-4" style="margin-top:20px;" id="tl-2">
+              </table>
+              <table class="table-bordered col-sm-4" style="margin-top:20px;" id="tl-3">
+              </table>
+              <table class="table-bordered col-sm-4" style="margin-top:20px;" id="tl-4">
+              </table>
+              <table class="table-bordered col-sm-4" style="margin-top:20px;" id="tl-5">
+              </table>
+              <table class="table-bordered col-sm-4" style="margin-top:20px;" id="tl-6">
+              </table> -->
+              
+    <script type="text/javascript">
+        var ctx = document.getElementById("myChart");
+        var total_points = [
+        [0,203],
+        [0,1658],
+        [0,785],
+        [0,907],
+        [0,729],
+        [0,1241],
+        [0,919],
+        [0,921],
+        [0,744],
+    ];
+        var data = {
+          labels: ["Start","29/03"],
+          datasets: [
+            {
+              label: "Aadarsh",
+              fill: false,
+              backgroundColor: "rgba(75,192,192,0.4)",
+              borderColor: "rgba(75,192,192,1)",
+              pointBorderColor: "rgba(75,192,192,1)",
+              pointBackgroundColor: "#fff",
+              pointBorderWidth: 1,
+              pointHoverRadius: 5,
+              pointHoverBackgroundColor: "rgba(75,192,192,1)",
+              pointHoverBorderWidth: 2,
+              pointRadius: 1,
+              pointHitRadius: 10,
+              data: total_points[0],
+            },
+            {
+              label: "Adi",
+              fill: false,
+              backgroundColor: "rgba(225,22,220,0.4)",
+              borderColor: "rgba(225,22,220,1)",
+              pointBorderColor: "rgba(225,22,220,1)",
+              pointBackgroundColor: "#fff",
+              pointBorderWidth: 1,
+              pointHoverRadius: 5,
+              pointHoverBackgroundColor: "rgba(225,22,220,1)",
+              pointHoverBorderWidth: 2,
+              pointRadius: 1,
+              pointHitRadius: 10,
+              data: total_points[1],
+            },
+            {
+              label: "Chatur",
+              fill: false,
+              backgroundColor: "rgba(25,22,192,0.4)",
+              borderColor: "rgba(25,22,192,1)",
+              pointBorderColor: "rgba(25,22,192,1)",
+              pointBackgroundColor: "#fff",
+              pointBorderWidth: 1,
+              pointHoverRadius: 5,
+              pointHoverBackgroundColor: "rgba(25,22,192,1)",
+              pointHoverBorderWidth: 2,
+              pointRadius: 1,
+              pointHitRadius: 10,
+              data: total_points[2],
+            },
+            {
+              label: "DrAG",
+              fill: false,
+              backgroundColor: "rgba(5,92,19,0.4)",
+              borderColor: "rgba(5,92,19,1)",
+              pointBorderColor: "rgba(5,92,19,1)",
+              pointBackgroundColor: "#fff",
+              pointBorderWidth: 1,
+              pointHoverRadius: 5,
+              pointHoverBackgroundColor: "rgba(5,92,19,1)",
+              pointHoverBorderWidth: 2,
+              pointRadius: 1,
+              pointHitRadius: 10,
+              data: total_points[3]
+            },
+            {
+              label: "Raj",
+              fill: false,
+              backgroundColor: "rgba(255,50,50,0.4)",
+              borderColor: "rgba(255,50,50,1)",
+              pointBorderColor: "rgba(255,50,50,1)",
+              pointBackgroundColor: "#fff",
+              pointBorderWidth: 1,
+              pointHoverRadius: 5,
+              pointHoverBackgroundColor: "rgba(255,50,50,1)",
+              pointHoverBorderWidth: 2,
+              pointRadius: 1,
+              pointHitRadius: 10,
+              data: total_points[4],
+            },
+            {
+              label: "Ram",
+              fill: false,
+              backgroundColor: "rgba(75,192,22,0.4)",
+              borderColor: "rgba(75,192,22,1)",
+              pointBorderColor: "rgba(75,192,22,1)",
+              pointBackgroundColor: "#fff",
+              pointBorderWidth: 1,
+              pointHoverRadius: 5,
+              pointHoverBackgroundColor: "rgba(75,192,22,1)",
+              pointHoverBorderWidth: 2,
+              pointRadius: 1,
+              pointHitRadius: 10,
+              data: total_points[5],
+            },
+            {
+              label: "Jackie",
+              fill: false,
+              backgroundColor: "rgba(255,255,255,0.4)",
+              borderColor: "rgba(255,255,255,0.4)",
+              pointBorderColor: "rgba(255,255,255,0.4)",
+              pointBackgroundColor: "#fff",
+              pointBorderWidth: 1,
+              pointHoverRadius: 5,
+              pointHoverBackgroundColor: "rgba(255,255,255,0.4)",
+              pointHoverBorderWidth: 2,
+              pointRadius: 1,
+              pointHitRadius: 10,
+              data: total_points[6],
+            },
+            {
+              label: "Vijay",
+              fill: false,
+              backgroundColor: "rgba(102,255,255,0.6)",
+              borderColor: "rgba(102,255,255,0.6)",
+              pointBorderColor: "rgba(102,255,255,0.6)",
+              pointBackgroundColor: "#fff",
+              pointBorderWidth: 1,
+              pointHoverRadius: 5,
+              pointHoverBackgroundColor: "rgba(102,255,255,0.6)",
+              pointHoverBorderWidth: 2,
+              pointRadius: 1,
+              pointHitRadius: 10,
+              data: total_points[7],
+            },
+            {
+              label: "Vinod",
+              fill: false,
+              backgroundColor: "rgb(232, 199, 20)",
+              borderColor: "rgba(232, 199, 201,1)",
+              pointBorderColor: "rgba(232, 199, 20,1)",
+              pointBackgroundColor: "#fff",
+              pointBorderWidth: 1,
+              pointHoverRadius: 5,
+              pointHoverBackgroundColor: "rgba(75,192,22,1)",
+              pointHoverBorderWidth: 2,
+              pointRadius: 1,
+              pointHitRadius: 10,
+              data: total_points[8],
+            },
+          ]
+        };
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: data,
+            options: {
+              responsive: false,
+              scales: {
+                yAxes: [{
+                  ticks: {
+                    beginAtZero: true
+                  }
+                }]
+              }
+            }
+        });
+        </script>
+
     <span>
         <button id="showrank" ng-click="showRankings()">Show Rankings</button>
         <span>
