@@ -41,10 +41,10 @@
 
                         </tr>
                     </thead>
-                    <tr ng-repeat="score in teamScores | orderBy:'-total'">
+                    <tr ng-repeat="score in teamScores | orderBy:'-totalpoints'">
                         <td>{{$index+1}}</td>
                         <td>{{score.name}}</td>
-                        <td>{{score.total}}</td>
+                        <td>{{score.totalpoints}}</td>
 
                     </tr>
                 </table>
@@ -85,7 +85,7 @@
                         </tr>
                     </thead>
                     <tbody class="container">
-                        <tr ng-repeat="player in participant.players | orderBy: '-totalpoints'">
+                        <tr ng-repeat="player in participant.players | orderBy: '-total'">
 
                             <td>
                                 {{$index+1}}
