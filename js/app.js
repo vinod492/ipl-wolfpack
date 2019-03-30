@@ -1225,8 +1225,22 @@
             "Lasith Malinga": -20,
             "Alzarri Joseph": 0
           }
-          console.log(player);
+          angular.forEach($scope.cricBattlePlayers, function (score, cricBattlePlayer) {
+           
+            if(cricBattlePlayer.toLowerCase().includes(player.toLowerCase()) === true)
+                return score;
+          });
         };
+
+        $scope.playerScore = function(){
+            angular.forEach($scope.allParticipants, function (participant, key) {
+                angular.forEach(participant.players, function (player, key) {
+                  player.total = $scope.getScore(player.name);
+                });
+            });
+        };
+
+        $scope.playerScore();
 
         $scope.test = function(){
          console.log('test');
