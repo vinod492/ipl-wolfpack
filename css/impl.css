@@ -1,6 +1,7 @@
 body{
     /* background: linear-gradient(black, grey); */
-    background: black;
+    background-color: #f9484a;
+    background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
     margin:0;
     
 }
@@ -11,8 +12,8 @@ body{
 }
 
 #rankings{
-    font-family: sans-serif;
-    font-size: 12px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14px;
     width: 150px;
     margin:15px;
     text-align: left;
@@ -21,12 +22,13 @@ body{
 }
 
 #rankings td{
-    color: black;
+    color: darkgray;
     background-color:lightgoldenrodyellow;
     border:none;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-style: italic;
+    font-size: 14px;
 }
 
 #rankings th{
@@ -37,13 +39,13 @@ body{
 }
 
 #players{
-    font-family: sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 12px;
     width: 300px;
     margin:1px;
     text-align: left;
     display: inline-block;
-    color: green;
+    color: black;
     border-collapse: separate;
     border-spacing: 0;
   
@@ -86,7 +88,7 @@ h1{
 thead {
   background: #395870;
   background: linear-gradient(#49708f, #293f50);
-  color: orange;
+  color: black;
   font-size: 11px;
   text-transform: uppercase;
 }
@@ -99,11 +101,12 @@ th:last-child {
 }
 
 td {
-    color:white;
+    color:black;
     border-bottom: 1px solid green;
     border: 0.5px groove orange;
     padding: 1px;
     text-align: left;
+    font-weight: bold;
 }
 
 #logo{

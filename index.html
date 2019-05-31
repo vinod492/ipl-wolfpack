@@ -2,10 +2,10 @@
 
 <head>
     <!-- Add favicon http://iconhandbook.co.uk/reference/examples/favicons/ -->
-        <link rel="icon" type="image/x-icon" href="ipl.ico" />
+        <link rel="icon" type="image/x-icon" href="wcup.ico" />
     <meta charset="utf-8">
 
-    <title>IPL</title>
+    <title>WorldCup 2019</title>
     <meta name="description" content="fantasy points">
     <meta name="author" content="vino">
 
@@ -23,8 +23,8 @@
 <body ng-app="myApp" ng-controller="myController">
     <header>
         <div id='logo'>
-                <img src="wolfpack.jpg" alt="ipl" style="float:left" height="100" width="190">
-            <img src="ipl_2019.jpg" alt="ipl" height="100" width="190">
+                <img src="wolfpack.jpg" alt="worldcup" style="float:left" height="100" width="190">
+            <img src="wc_2019.jpg" alt="worldcup" height="100" width="190">
             <!-- <h1>IPL</h1> -->
         </div>
     </header>
@@ -51,21 +51,21 @@
     <script type="text/javascript">
         var ctx = document.getElementById("myChart");
         var total_points = [
-        [0,203],
-        [0,1658],
-        [0,785],
-        [0,907],
-        [0,729],
-        [0,1241],
-        [0,919],
-        [0,921],
-        [0,744],
+        [0,],
+        [0,],
+        [0,],
+        [0,],
+        [0,],
+        [0,],
+        [0,],
+        [0,],
+        [0,],
     ];
         var data = {
-          labels: ["Start","29/03"],
+          labels: ["Start"],
           datasets: [
             {
-              label: "Aadarsh",
+              label: "Abhi",
               fill: false,
               backgroundColor: "rgba(75,192,192,0.4)",
               borderColor: "rgba(75,192,192,1)",
@@ -298,7 +298,7 @@
                         </tr>
                         <tr class="totalScore">
                             <td> </td>
-                            <td>Top 16:</td>
+                            <td>Top 14:</td>
                             <td></td>
                             <td id="points">{{totalScore(participant)}}</td>
                         </tr>
