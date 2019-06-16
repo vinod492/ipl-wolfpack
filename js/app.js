@@ -2,10 +2,37 @@
 
     var myApp = angular.module('myApp', []);
 
-    myApp.controller('myController', ['$scope', function ($scope) {
+    myApp.controller('myController', ['$scope', function ($scope,$http) {
         $scope.greeting = 'Hola!';
         $scope.obj = [];
         $scope.topPlayers = [];
+        
+        // $scope.getRequest = function() {
+        //     // console.log("I've been pressed!");
+        //     // $http.get("https://kvzh3f5c0e.execute-api.us-east-1.amazonaws.com/stage/getscores").then(
+        //     //   function successCallback(response) {
+        //     //     $scope.response = response;
+        //     //   },
+        //     //   function errorCallback(response) {
+        //     //     console.log("Unable to perform get request");
+        //     //   }
+        //     // );
+
+        //     // var xhttp = new XMLHttpRequest();
+        //     // xhttp.onreadystatechange = function() {
+        //     //   if (this.readyState == 4 && this.status == 200) {
+        //     //     document.getElementById("demo").innerHTML = this.responseText;
+        //     //   }
+        //     // };
+        //     // xhttp.open("GET", "https://kvzh3f5c0e.execute-api.us-east-1.amazonaws.com/stage/getscores", true);
+        //     // xhttp.send();
+    
+        //     const fetchPromise = fetch("https://kvzh3f5c0e.execute-api.us-east-1.amazonaws.com/stage/getscores");
+        //     fetchPromise.then(response => {
+        //         console.log(response);
+        //       });
+        //   };
+     
 
 
         $scope.allParticipants = [
@@ -993,141 +1020,148 @@
         //     }
         //    });
 
+
         $scope.getScore = function(player){
-        $scope.cricBattlePlayers = {
+         
+            // $scope.cricBattlePlayers =$scope.getRequest();
+        $scope.cricBattlePlayers ={
+            "Aaron Finch": 835,
+            "Joe Root": 709,
+            "Mitchell Starc": 677,
             "Shakib Al Hasan": 650,
-            "Pat Cummins": 532,
+            "Pat Cummins": 600,
+            "David Warner": 543,
+            "Jofra Archer": 541,
             "Jason Roy": 526,
-            "Ben Stokes": 514,
-            "Mohammad Amir": 512,
-            "David Warner": 507,
-            "Mitchell Starc": 482,
+            "Ben Stokes": 524,
+            "Mohammad Amir": 623,
             "Lockie Ferguson": 478,
-            "Aaron Finch": 438,
+            "Chris Morris": 473,
+            "Jos Buttler": 445,
+            "Andile Phehlukwayo": 433,
             "James Neesham": 428,
-            "Jos Buttler": 425,
             "Matt Henry": 419,
+            "Steven Smith": 415,
             "Mohammad Hafeez": 394,
-            "Jofra Archer": 359,
-            "Joe Root": 354,
+            "Alex Carey": 386,
+            "Imran Tahir": 383,
             "Nathan Coulter-Nile": 353,
-            "Rohit Sharma": 351,
-            "Alex Carey": 342,
-            "Oshane Thomas": 318,
-            "Jason Holder": 314,
+            "Chris Woakes": 353,
+            "Rohit Sharma": 647,
+            "Quinton de Kock": 339,
+            "Mark Wood": 334,
+            "Kagiso Rabada": 328,
+            "Kusal Perera": 328,
+            "Jason Holder": 323,
+            "Oshane Thomas": 307,
             "Shikhar Dhawan": 298,
+            "Dimuth Karunaratne": 286,
             "Mohammad Saifuddin": 284,
-            "Wahab Riaz": 282,
+            "Wahab Riaz": 321,
             "Yuzvendra Chahal": 278,
-            "Chris Morris": 273,
+            "Jonny Bairstow": 278,
             "Mehidy Hasan": 273,
-            "Andile Phehlukwayo": 271,
             "Jasprit Bumrah": 271,
-            "Steven Smith": 269,
             "Ross Taylor": 269,
-            "Kagiso Rabada": 265,
-            "Nuwan Pradeep": 265,
+            "Rashid Khan": 267,
             "Bhuvneshwar Kumar": 261,
-            "Sheldon Cottrell": 256,
+            "Mohammad Nabi": 252,
+            "Andre Russell": 251,
             "Mushfiqur Rahim": 245,
+            "Chris Gayle": 243,
+            "Kane Richardson": 239,
+            "Faf du Plessis": 237,
+            "Sheldon Cottrell": 236,
+            "Nicholas Pooran": 236,
             "Martin Guptill": 234,
-            "Mohammad Nabi": 228,
-            "Sarfraz Ahmed": 224,
-            "Quinton de Kock": 223,
-            "Andre Russell": 222,
-            "Faf du Plessis": 217,
+            "Liam Plunkett": 231,
+            "Sarfraz Ahmed": 234,
             "Moeen Ali": 216,
-            "Kusal Perera": 210,
+            "Glenn Maxwell": 212,
             "Eoin Morgan": 209,
+            "Nuwan Pradeep": 209,
             "Mosaddek Hossain": 208,
             "Trent Boult": 206,
-            "Chris Woakes": 206,
-            "Babar Azam": 200,
-            "Liam Plunkett": 199,
-            "Rashid Khan": 195,
+            "Babar Azam": 220,
+            "Rassie van der Dussen": 197,
             "Najibullah Zadran": 193,
             "Colin Munro": 192,
-            "Virat Kohli": 192,
-            "Jonny Bairstow": 189,
-            "Shai Hope": 185,
+            "Virat Kohli": 324,
+            "Aftab Alam": 188,
             "Soumya Sarkar": 184,
+            "Shai Hope": 184,
             "Colin de Grandhomme": 180,
-            "Rassie van der Dussen": 177,
             "Marcus Stoinis": 175,
-            "Chris Gayle": 172,
-            "Mark Wood": 168,
+            "Carlos Brathwaite": 170,
+            "Usman Khawaja": 168,
             "Kane Williamson": 165,
-            "Carlos Brathwaite": 156,
-            "Aftab Alam": 154,
-            "Usman Khawaja": 153,
+            "Lasith Malinga": 163,
+            "Hazratullah Zazai": 158,
+            "Gulbadin Naib": 154,
             "Imam-ul-Haq": 148,
-            "Nicholas Pooran": 146,
             "Adam Zampa": 141,
             "Mitchell Santner": 138,
+            "Isuru Udana": 138,
             "Mahmudullah": 135,
-            "Hardik Pandya": 133,
-            "Hazratullah Zazai": 125,
-            "Hamid Hassan": 121,
-            "Dimuth Karunaratne": 120,
-            "MS Dhoni": 119,
-            "Lasith Malinga": 119,
+            "Hamid Hassan": 134,
+            "Hardik Pandya": 176,
+            "MS Dhoni": 120,
             "Lungi Ngidi": 118,
-            "Imran Tahir": 118,
-            "Gulbadin Naib": 108,
             "Jean-Paul Duminy": 107,
-            "Hashmatullah Shahidi": 101,
+            "Hashmatullah Shahidi": 100,
             "Mustafizur Rahman": 99,
-            "Thisara Perera": 97,
+            "Shimron Hetmyer": 97,
             "David Miller": 95,
+            "Thisara Perera": 94,
+            "Aiden Markram": 92,
             "Dawlat Zadran": 88,
-            "Kane Richardson": 85,
             "Tom Latham": 85,
-            "Aiden Markram": 82,
+            "Noor Ali Zadran": 84,
+            "Dhananjaya de Silva": 83,
             "Fakhar Zaman": 81,
-            "Glenn Maxwell": 80,
-            "Shadab Khan": 75,
-            "Rahmat Shah": 70,
+            "Hashim Amla": 75,
+            "Shadab Khan": 62,
+            "Rahmat Shah": 66,
             "Shaheen Afridi": 64,
-            "Hasan Ali": 62,
-            "Adil Rashid": 61,
+            "Hasan Ali": 59,
             "Tamim Iqbal": 59,
+            "Rishabh Pant": 0,
+            "Adil Rashid": 54,
             "Mohammad Mithun": 53,
-            "Noor Ali Zadran": 50,
+            "Lahiru Thirimanne": 52,
             "Shoaib Malik": 49,
-            "Lokesh Rahul": 47,
+            "Shannon Gabriel": 48,
+            "Lokesh Rahul": 128,
             "Kuldeep Yadav": 43,
-            "Shimron Hetmyer": 41,
             "Mujeeb Ur Rahman": 41,
-            "Lahiru Thirimanne": 39,
-            "Hashim Amla": 34,
             "Asif Ali": 32,
+            "Shaun Marsh": 31,
             "Suranga Lakmal": 31,
             "Kedar Jadhav": 29,
-            "Shaun Marsh": 28,
+            "Beuran Hendricks": 19,
+            "Ikram Ali Khil": -23,
+            "Kusal Mendis": 27,
+            "Jason Behrendorff": 24,
             "Mashrafe Mortaza": 23,
             "Ashley Nurse": 23,
-            "Beuran Hendricks": 0,
-            "Ikram Ali Khil": -14,
-            "Isuru Udana": 20,
             "Mohammad Shahzad": 19,
+            "Milinda Siriwardana": 13,
             "Kemar Roach": 10,
             "Haris Sohail": 10,
-            "Imad Wasim": 1,
+            "Evin Lewis": 3,
+            "Imad Wasim": 10,
             "Jeevan Mendis": 1,
-            "Evin Lewis": 1,
+            "Ravindra Jadeja": 0,
             "Liton Das": 0,
             "Rubel Hossain": 0,
-            "Vijay Shankar": 0,
+            "Vijay Shankar": 3,
             "Joe Denly": 0,
-            "Ravindra Jadeja": 0,
+            "Henry Nicholls": 0,
             "Junaid Khan": 0,
             "Abu Jayed": 0,
-            "Milinda Siriwardana": 0,
-            "Henry Nicholls": 0,
+            "Tim Southee": 0,
             "Sabbir Rahman": 0,
             "Tom Curran": 0,
-            "Asghar Afghan": 0,
-            "Tim Southee": 0,
             "Jhye Richardson": 0,
             "Samiullah Shenwari": 0,
             "Avishka Fernando": 0,
@@ -1136,25 +1170,22 @@
             "Jeffrey Vandersay": 0,
             "Fahim Ashraf": 0,
             "James Vince": 0,
+            "Mohammed Shami": 0,
             "Dinesh Karthik": 0,
-            "Shannon Gabriel": 0,
             "Anrich Nortje": 0,
             "Liam Dawson": 0,
-            "Mohammed Shami": 0,
             "David Willey": 0,
             "Tom Blundell": 0,
             "Abid Ali": 0,
             "Dale Steyn": 0,
-            "Nathan Lyon": 0,
-            "Jason Behrendorff": 0,
-            "Mohammad Hasnain": 0,
             "Alex Hales": 0,
+            "Nathan Lyon": 0,
+            "Mohammad Hasnain": 0,
             "Dwaine Pretorius": -2,
             "Tabraiz Shamsi": -4,
-            "Dhananjaya de Silva": -14,
-            "Kusal Mendis": -18,
-            "Darren Bravo": -20,
-            "Angelo Mathews": -30
+            "Angelo Mathews": -17,
+            "Asghar Afghan": -20,
+            "Darren Bravo": -20
           }
 
           angular.forEach($scope.cricBattlePlayers, function (score, cricBattlePlayer) {
@@ -1166,6 +1197,9 @@
           });
     
         };
+
+        
+
 
         $scope.playerScore = function(){
             angular.forEach($scope.allParticipants, function (participant, key) {
